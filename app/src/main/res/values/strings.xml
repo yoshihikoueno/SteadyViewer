@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SteadyViewer</string>
+
+    <string name="dummy_button">Change Picture</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="banner_ad_unit_id">000</string>
+</resources>

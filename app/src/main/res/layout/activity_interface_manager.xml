@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.yoshihiko.steadyviewer.InterfaceManager">
+
+    <com.yoshihiko.steadyviewer.Content
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        />
+
+    <FrameLayout
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:titleTextColor="@android:color/white"
+            android:title="@string/app_name"
+            android:titleTextAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:background="@android:color/transparent"
+            android:layout_gravity="top"
+            />
+        <Button
+            android:id="@+id/dummy_button"
+            style="?metaButtonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black_overlay"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="@string/dummy_button" />
+    </FrameLayout>
+
+</FrameLayout>

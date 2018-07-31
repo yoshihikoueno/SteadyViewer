@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "745775973090",
+    "firebase_url": "https://steadyviewer-bf3fa.firebaseio.com",
+    "project_id": "steadyviewer-bf3fa",
+    "storage_bucket": "steadyviewer-bf3fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745775973090:android:b0785dfae0155769",
+        "android_client_info": {
+          "package_name": "com.yoshihiko.steadyviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745775973090-b68k8jn9vkcg7piodp69u1r9n6h1f7ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yoshihiko.steadyviewer",
+            "certificate_hash": "58b12dbab0c156445dc222ba3b3951a78d7b520f"
+          }
+        },
+        {
+          "client_id": "745775973090-6tfbqal339g9h1kg26rlipgl980igtot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXIAxy-b75HEvLgYaCvkgMPBARCs-Vn4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745775973090-6tfbqal339g9h1kg26rlipgl980igtot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
